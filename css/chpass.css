@@ -1,0 +1,38 @@
+
+.container_chpass {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 16px;
+  margin: auto;
+  height: 400px;
+  width: 300px;
+
+}
+.container_chpass h3{
+	text-align: center;
+	font-size: 30px;
+}
+.container_chpass label{
+	font-size: 20px;
+}
+.container_chpass input{
+	font-size: 18px;
+
+}
+.container_chpass p input{
+	background-color: #3488db;
+	font-size: 20px;
+	padding: 10px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+.container_chpass p input:hover{
+	transform: scale(1.1);
+}
+
+.container_chpass .passwordbuttom
+{
+	padding: 5px;
+	font-size: 1.3em;
+}
