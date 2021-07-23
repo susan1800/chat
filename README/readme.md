@@ -68,7 +68,7 @@
 			[mail function]
 			SMTP=smtp.gmail.com
 			smtp_port=587
-			sendmail_from = kumar.bibek.nep@gmail.com
+			sendmail_from = your email address
 			sendmail_path ="\"C:\xampp\sendmail\sendmail.exe\" -t"
 		-edit file xampp/sendmail/sendmail.ini set
 			[sendmail]
@@ -76,14 +76,14 @@
 			smtp_port=587
 			error_logfile=error.log
 			debug_logfile=debug.log
-			auth_username=kumar.bibek.nep@gmail.com
-			auth_password=dogcrdgoyyzswvgh
-			force_sender= kumar.bibek.nep@gmail.com
+			auth_username=your email address
+			auth_password=your password
+			force_sender= your email address
 
 
 	## Install and execute
-		-first run server (project/server/server.php) from command prompt or run in browser (! xaamp or wampp is require)
-		-Then run project/login/index.php
+		-first turn on your xampp server
+		-And run the project
 
 
 	### Technologies used ###
