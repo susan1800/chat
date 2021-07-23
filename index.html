@@ -17,20 +17,7 @@
     <div id="autodata"></div>
     <div class="container">
          <div class="col-md-4 offset-md-4 from login-form">
-                  <?php
-                    if(count($errors) > 0){
-                        ?>
-                        <div class="alert alert-danger text-">
-                            <?php
-                            foreach($errors as $showerror){
-                                echo $showerror;
-                                echo "$registerresult";
-                            }
-                            ?>
-                        </div>
-                        <?php
-                    }
-                    ?>
+                  
         </div>
         <div class="row">  
             <div class="col-md-4 offset-md-4 form login-form">
@@ -43,7 +30,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                         </div>
-                        <input type="email" name="email" maxlength="75" class="form-control" placeholder="Email" required value="<?php echo $email ?>"> 
+                        <input type="email" name="email" maxlength="75" class="form-control" placeholder="Email" required value="email"> 
                     </div>
 
                    <div class="input-group form-group">
